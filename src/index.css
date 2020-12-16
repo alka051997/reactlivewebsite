@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sign{
+  color: #FFFFFF;
+    font-size: 16px;
+    background-color: #00A5EC;
+    border-radius: 3px;
+    padding: 4px 30px;
+}
+.menu_active{
+  font-weight:900;
+  border-bottom: 4px solid #692E90;
+}
+.form_main_container{
+  background-color: #F1F1F1;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border-radius: 3px;
+    padding: 20px!important;
+    width: 400px!important;
+    margin-top: 0px;
+}
+.certified-tag {
+    background-color: #00FFC6;
+    color: #005441;
+    padding: 3px 14px;
+    font-family: 'proximanova-semibold';
+    margin-bottom: 18px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.tags>div{
+  padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1.25px dashed rgba(255,255,255,0.6);
+    border-radius: 30px;
+    display: inline-block;
+    margin: 9px 5px 0 0;
+}
+.banner{
+  background-image: url('banner.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.bg_banner{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+#course-headline{
+  font-family: 'proximanova-extrabold';
+    color: #FFFFFF;
+    font-size:60px;
+    font-weight:900;
+}
+.course-brief{
+  font-size: 20px;
+    line-height: 24px;
+    max-width: 385px;
+    color:#fff;
+}
+.certified_tag{
+  padding: 3px 14px;
+    font-family: 'proximanova-semibold';
+    margin-bottom: 18px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.section-heading{
+  font-family: 'proximanova-bold';
+    color: #333333;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.icon_img>img{
+  width:100%;
+}
+.title{
+  font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.description {
+    font-size: 16px;
+}
+.content-container{
+  padding-top: 15px;
+}
+.cerimg{
+  width:100%;
+}
+.section_heading{
+ 
+    font-family: 'proximanova-bold';
+    color: #333333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:900;
+
+}
+.cerpara{
+  margin-top:100px;
+}
+.Certificate{
+      background-color: #FCF5FF;
+}
+.number-box{
+  background-color: #8756a9;
+    padding: 13px;
+    border-radius: 0px 0px 200px 209px;
+    color: #fff;
+}
+.syllabus{
+  background-color: #FCF5FF;
+}
+.syllabus_con{
+  padding:10px;
+  background:#fff;
+  width:70%;
+  margin-bottom:30px;
+}
+.d-flex {
+   
+    display: flex!important;
+}
+.name {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px 0;
+}
+#footer a {
+    color: white;
+    font-size:13px;
+}
+#footer .footer-inner {
+    display: grid;
+    grid-gap: 5px 45px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "a1 a2 a3 a4"
+        "a1 a5 a6 a7"
+        "a8 a9 a10 a7";
+}
+
+#footer #footer-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'proximanova-semibold';
+    justify-content: space-between;
+    white-space: nowrap;
+    line-height: 1.8;
+}
+.menu-heading h4 {
+    margin: 10px 0 5px 0;
+    font-size: 17px;
+}
+.student_rev{
+  background-color: #FCF5FF;
+}
+.slider-item {
+    padding: 0px 15px;
+    width: 50%;
+    min-width: 50%;
+    background-color:#fff;
+}
+.feedbacks-card-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.06);
+    border-radius: 3px;
+}
+#student_re{
+  background-color: #FCF5FF;
+}
+.image-container{
+    height: auto;
+    width: 90px;
+    transform: scale(1.3);
+}
+.image-container {
+    min-width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+.feedback-giver-info-container {
+    margin-left: 20px;
+}
+.feedbacks-card-container .feedbacks-card .head {
+    height: 100px;
+    margin-bottom: 15px;
+}
+ .feedbacks-card {
+    padding: 24px 30px;
+}
+.feedbacks-card-container {
+    background-color: #fff !important;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.06);
+    border-radius: 3px;
+}
+.custom-carousel .slider {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: stretch;
+}
+ .teacher-info {
+    padding: 24px;
+    padding-top: 75px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+.teacher-card {
+    padding-top: 60px;
+    position: relative;
+}
+.bb{
+  color:#fff !important;
+}
+.image-wrapper {
+    position: absolute;
+    top: 0px;
+}
